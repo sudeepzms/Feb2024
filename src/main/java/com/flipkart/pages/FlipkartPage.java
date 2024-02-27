@@ -54,7 +54,7 @@ public class FlipkartPage {
 //		action.sendKeys(Keys.ENTER);
 		searchWE.sendKeys(Keys.ENTER);
 	}
-	
+	//
 	public void countResult()
 	{
 		List<WebElement> list = driver.findElements(By.xpath("//a[@class = '_1fQZEK']"));
